@@ -8,7 +8,7 @@ PulseKey utilizes the [SendInput Win32 API](https://learn.microsoft.com/en-us/wi
 
 PulseKey is a tool designed to map game controller inputs to keyboard and mouse commands, featuring Analog to Pulse-Width Modulation conversion. The initial motivation for creating PulseKey was to enable the use of a game controller for playing [System Shock 2](https://store.steampowered.com/app/238210/System_Shock_2/), which led to the tool's evolution into a more general program.
 
-A key focus during PulseKey's development was exploring the feasibility of replicating analog input behaviors on keyboards through Pulse-Width Modulation. The findings indicate that while it is possible under certain conditions.
+A key focus during PulseKey's development was exploring the feasibility of replicating analog input behaviors on keyboards through Pulse-Width Modulation. The findings indicate that it sometimes work.
 
 Note: Keep the PulseKey window on the correct monitor if using v-sync.
 
@@ -40,7 +40,7 @@ Game settings are specified within a [games.yaml](./config/games.yaml) file. Con
 
 ## Building the project
 
-PulseKey's builds are automated for Windows through [GitHub Actions](https://github.com/Donitzo/pulsekey/actions), utilizing the vcpkg package manager and CMake for seamless building. The build process is tailored for MinGW with G++, and due to the reliance on Windows-specific APIs, porting the project to Linux or macOS would require significant modifications.
+PulseKey's builds are automated for Windows through [GitHub Actions](https://github.com/Donitzo/pulsekey/actions), using the vcpkg package manager and CMake for building. The build process is using MinGW with G++, and due to the reliance on Windows-specific APIs, porting the project to Linux or macOS would require significant modifications.
 
 ## Feedback & Bug Reports
 
