@@ -1,3 +1,5 @@
+TEST
+
 **## Warning!**
 
 PulseKey utilizes the [SendInput Win32 API](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-sendinput) for simulating keyboard and mouse actions. This method of emulation is commonly found in software designed for cheating in video games, such as aimbots for Counter Strike. Consequently, it may be detected by anti-cheat technologies. It is advisable to not use PulseKey with any software that employs anti-cheat measures to avoid the risk of being banned.
